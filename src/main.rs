@@ -1,16 +1,16 @@
 use std::fs;
-use std::io;
+// use std::io;
 
 fn main() {
     // let mut current_dir = String::new();
     // std::io::stdin()
     // .read_line(&mut current_dir)
     // .expect("Failed to read line");
-    let mut current_dir = String::new();
-    io::stdin()
-        .read_line(&mut current_dir)
-        .expect("Failed to read input");
-    // let current_dir = "./target";
+    // let mut current_dir = String::new();
+    // io::stdin()
+    //     .read_line(&mut current_dir)
+    //     .expect("Failed to read input");
+    let current_dir = "./target";
 
     if let Ok(entries) = fs::read_dir(current_dir) {
         for entry in entries {
