@@ -51,8 +51,4 @@ To explore the contents of the current directory:
 
 Contributions are welcome! If you find any issues or want to add enhancements, feel free to open an issue or submit a pull request on [GitHub](https://github.com/your-username/file-explorer).
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
